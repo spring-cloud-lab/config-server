@@ -6,6 +6,10 @@ spring:
           uri: https://github.com/spring-cloud-lab/config-repo.git
           searchPaths: '{application}'
           force-pull: true
+security:
+  user:
+    name: config
+    password: secret
 
 server:
   port: 8000
